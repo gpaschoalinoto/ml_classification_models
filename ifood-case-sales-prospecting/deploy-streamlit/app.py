@@ -10,7 +10,7 @@ import plotly.express as px
 
 # Web page tab configuration
 st.set_page_config(page_title='iFood Sales Prediction',
-                   page_icon='./images/ifood-logo-web-page.png',
+                   page_icon='././images/ifood-logo-web-page.png',
                    layout='wide',
                    initial_sidebar_state='expanded')
 
@@ -25,7 +25,7 @@ with st.expander('About the project', expanded=False):
 # Sidebar with model version and choice of data input type
 with st.sidebar:
     c1, c2 = st.columns(2)
-    c1.image('./images/ifood-logo-side-bar.png', width=250)
+    c1.image('././images/ifood-logo-side-bar.png', width=250)
     c2.write('')
     c1.subheader('iFood Sales Predictor - LGBM v1')
 
