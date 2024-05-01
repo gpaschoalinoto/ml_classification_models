@@ -10,7 +10,7 @@ import plotly.express as px
 
 # Web page tab configuration
 st.set_page_config(page_title='iFood Sales Prediction',
-                   page_icon='https://static.ifood.com.br/webapp/images/logo-smile-512x512.png',
+                   page_icon='./ifood-case-sales-prospecting/deploy-streamlit/images/ifood-logo-web-page.png',
                    layout='wide',
                    initial_sidebar_state='expanded')
 
@@ -25,7 +25,7 @@ with st.expander('About the project', expanded=False):
 # Sidebar with model version and choice of data input type
 with st.sidebar:
     c1, c2 = st.columns(2)
-    c1.image('https://upload.wikimedia.org/wikipedia/commons/9/90/IFood_logo.svg', width=250)
+    c1.image('./ifood-case-sales-prospecting/deploy-streamlit/images/ifood-logo-side-bar.png', width=250)
     c2.write('')
     c1.subheader('iFood Sales Predictor - LGBM v1')
 
@@ -148,7 +148,7 @@ with tab1:
                 
                 # Running prediction model with values entered by user
                 if st.button('Predict'):
-                    mdl_rf = load_model('./ifood_sales_prospecting_model_lgbm')
+                    mdl_rf = load_model('./ifood-case-sales-prospecting/deploy-streamlit/ifood_sales_prospecting_model_lgbm')
                     ypred = predict_model(mdl_rf, data=user_data, raw_score=True)
                     prediction_proba = mdl_rf.predict_proba(user_data)[:, 1]
                     prediction = (prediction_proba > threshold).astype(int)
@@ -164,7 +164,7 @@ with tab1:
     elif database == 'CSV':
         if file:
             Xtest = pd.read_csv(file)
-            mdl_lgbm = load_model('./ifood_sales_prospecting_model_lgbm')
+            mdl_lgbm = load_model('./ifood-case-sales-prospecting/deploy-streamlit/ifood_sales_prospecting_model_lgbm')
 
             # Running prediction model with csv file
             ypred = predict_model(mdl_lgbm, data = Xtest, raw_score = True)
