@@ -6,6 +6,10 @@ The Loan Eligibility Checker project aims to develop a machine learning model (c
 
 The loan process involves several steps from application submission to approval or rejection like application submission, documentation review, credit check, underwriting, decision-making, loan disbursement, and repayment. The criteria when assesing a borrower's eligibility for a loan vary depending on the type of loan and the lender's policies but commom considerations includes credit history, income, employment status, debt-to-income ratio, collateral, loan purpose, amount, and terms.
 
+<p align="center">
+<img src="https://github.com/guilhermegarcia-ai/ml-classification-models/assets/62107649/620ca12c-dfbb-41d8-a775-0d1dee2d1c15" width=600 height=300>
+</p>
+
 ## The Objective
 
 The primary objective of this project is to develop a robust classification model capable of accurately predicting loan eligibility based on customer details. By analyzing historical customer data and identifying significant characteristics, the model aims to automate and streamline the loan approval process for the company.
