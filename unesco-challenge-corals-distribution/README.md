@@ -6,6 +6,10 @@ The Coral Reefs Worldwide Distribution project aims to develop a machine learnin
 
 Healthy corals are the foundation of our ocean's food chain and are crucial to our economy. Coral reefs support fishing and tourism industries, provide millions of jobs, and contribute significantly to global economies. They are also sources of important pharmaceuticals for treating cancer, arthritis, and viruses. Additionally, coral reefs act as natural barriers protecting coastal communities from high-impact waves. However, corals face threats from pollution and climate change, making their protection essential. Since the discovery of cold-water corals inhabiting depths worldwide, studying coral distribution has become a significant challenge. Not only do shallow and warm tropical waters serve as coral habitats, but cold and dark depths near Antarctica and the Arctic can also be home to corals. This project seeks understand what factors may influence the distribution of corals around the world and to create a predictive model to identify which ocean areas are suitable for corals, both hard and soft.
 
+<p align="center">
+<img src="https://github.com/guilhermegarcia-ai/ml-classification-models/assets/62107649/be2438c7-7781-4550-abd0-afd999ad0e3f" width=600 height=300>
+</p>
+
 ## The Objective
 
 The main goal of this project is to identify the factors affecting coral distribution worldwide and predict potential coral habitats. By understanding these factors, the model aims to contribute to efforts to protect and preserve coral reef ecosystems.
