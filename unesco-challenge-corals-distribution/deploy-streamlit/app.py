@@ -8,11 +8,11 @@ import numpy as np
 
 # Web page tab configuration
 st.set_page_config(page_title='Coral Reefs Habitat Prediction',
-                   page_icon='./images/coral-reef-logo-web-page.png',
+                   page_icon='./unesco-challenge-corals-distribution/deploy-streamlit/images/coral-reef-logo-web-page.png',
                    layout='wide',
                    initial_sidebar_state='expanded')
 
-st.image('./images/blue-future-header.png')
+st.image('./unesco-challenge-corals-distribution/deploy-streamlit/images/blue-future-header.png')
 
 # Sidebar with model version and choice of data input type
 with st.sidebar:
