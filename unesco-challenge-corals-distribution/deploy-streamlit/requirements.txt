@@ -1,0 +1,7 @@
+numpy==1.25.2
+pandas==1.5.3
+plotly==5.21.0
+scikit-learn==1.4.2
+streamlit==1.33.0
+streamlit-extras==0.4.3
+cloudpickle==3.0.0
