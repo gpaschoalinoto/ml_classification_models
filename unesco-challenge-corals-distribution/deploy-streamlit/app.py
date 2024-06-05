@@ -81,7 +81,7 @@ if database == 'Predictor':
                     
         # Running prediction model with values entered by user
         if submitted:
-            mdl_rf = pickle.load(open('../../unesco-challenge-corals-distribution/deploy-streamlit/models/model_rf.pkl','rb'))
+            mdl_rf = pickle.load(open('./unesco-challenge-corals-distribution/deploy-streamlit/models/model_rf.pkl','rb'))
             ypred = mdl_rf.predict(user_data)
             prediction_proba = mdl_rf.predict_proba(user_data)[:, 1]
             prediction = (prediction_proba > threshold).astype(int)
@@ -149,7 +149,7 @@ elif database == 'CSV':
     if 'Xtest' in st.session_state:
         Xtest = st.session_state['Xtest']
         
-        mdl_rf = pickle.load(open('../../unesco-challenge-corals-distribution/deploy-streamlit/models/model_rf.pkl','rb'))
+        mdl_rf = pickle.load(open('./unesco-challenge-corals-distribution/deploy-streamlit/models/model_rf.pkl','rb'))
         ypred = mdl_rf.predict(Xtest)
         prediction_proba = mdl_rf.predict_proba(Xtest)[:, 1]
         
