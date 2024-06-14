@@ -6,17 +6,21 @@ The IBM HR Analytics Employee Attrition project aims to develop a machine learni
 
 Employee attrition, or turnover, is a significant concern for many organizations, as it can lead to increased costs, loss of knowledge, and decreased morale. Understanding the factors that contribute to employee attrition can help companies implement strategies to retain talent.
 
+<p align="center">
+<img src="https://github.com/guilhermegarcia-ai/ml-classification-models/assets/62107649/78480cb6-ccae-41f0-9926-d8796963fe49" width=600 height=300>
+</p>
+
 ## The Objective
 
 The primary objective of this project is to identify employees at risk of leaving the company. By analyzing significant predictors, the model aims to help organizations reduce turnover and retain valuable employees.
-
-
 
 ## The Data
 
 The dataset contains 1.470 records detailing attributes of employees. These features include information that is mandatorily collected by the company's registration process, and others that need to be provided by the employee themselves, in the case of job satisfaction.
 
-
+<p align="center">
+<img src="https://github.com/guilhermegarcia-ai/ml-classification-models/assets/62107649/5a568e7f-d189-4b4a-9915-239f13403fa8">
+</p>
 
 ## Business Impact
 
